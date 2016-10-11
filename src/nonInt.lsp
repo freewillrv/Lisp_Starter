@@ -1,0 +1,6 @@
+(defun circle(r)
+	(* 3.14 r r)
+)
+(defun fourCircle(x)
+	(* 4 x)
+)
