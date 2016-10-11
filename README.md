@@ -1,23 +1,23 @@
 # Lisp_Starter
-This is a repository of sample LISP programs &amp; a small read me.
+This is a repository of sample LISP programs &amp; a tutorial file
 
 
 
 ##FUNCTIONS 
 
-car - takes list as an arguement -- returns the first element of the list
+**car** - takes list as an arguement -- returns the first element of the list
 
-cdr - Takes a list as an arguement - rturns list except the first element
+**cdr** - Takes a list as an arguement - rturns list except the first element
 
-cons - (cons `a `(p q r)) Creates a new list ( conset)
+**cons** - **(cons `a `(p q r))** Creates a new list ( conset)
 
-list - Any no of lists as arguements , returns list where all lists are associated as top items.
-	(list `(A B) `(11 12) `(x)) --- ((A B) (11 12) (X))
+**list** - Any no of lists as arguements , returns list where all lists are associated as top items.
+	**(list `(A B) `(11 12) `(x)) --- ((A B) (11 12) (X))**
 	
-append Any no of lists as arguements and merges all lists in a singe list
+**append** Any no of lists as arguements and merges all lists in a singe list
 					(append `(A B) `(11 12) `(x))---- ( A B 11 12 X)
 
-last -- Single list as qrguemen and returns the last element is reurn as a list
+**last** -- Single list as qrguemen and returns the last element is reurn as a list
 		(last `(a b c d e)) -- (E)
 		
 reverse -- reverses the list 
